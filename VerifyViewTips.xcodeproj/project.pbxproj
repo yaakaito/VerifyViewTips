@@ -20,10 +20,13 @@
 		B9BAD51B15A73B1300E4C9AB /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FCB3AB7C49BC4480BE689B6D /* libPods.a */; };
 		B9BAD52315A73FFE00E4C9AB /* VVTSampleView.m in Sources */ = {isa = PBXBuildFile; fileRef = B9BAD52215A73FFE00E4C9AB /* VVTSampleView.m */; };
 		B9BAD52415A73FFE00E4C9AB /* VVTSampleView.m in Sources */ = {isa = PBXBuildFile; fileRef = B9BAD52215A73FFE00E4C9AB /* VVTSampleView.m */; };
-		B9BAD52615A740A400E4C9AB /* VTTSampleViewTest.m in Sources */ = {isa = PBXBuildFile; fileRef = B9BAD52515A740A400E4C9AB /* VTTSampleViewTest.m */; };
+		B9BAD52615A740A400E4C9AB /* VVTSampleViewTest.m in Sources */ = {isa = PBXBuildFile; fileRef = B9BAD52515A740A400E4C9AB /* VVTSampleViewTest.m */; };
 		B9BAD53215A78AD300E4C9AB /* VVTOrangeView.m in Sources */ = {isa = PBXBuildFile; fileRef = B9BAD53115A78AD300E4C9AB /* VVTOrangeView.m */; };
 		B9BAD53315A78AD300E4C9AB /* VVTOrangeView.m in Sources */ = {isa = PBXBuildFile; fileRef = B9BAD53115A78AD300E4C9AB /* VVTOrangeView.m */; };
 		B9BAD53515A78CE100E4C9AB /* VVTOrangeViewTest.m in Sources */ = {isa = PBXBuildFile; fileRef = B9BAD53415A78CE100E4C9AB /* VVTOrangeViewTest.m */; };
+		B9BAD53815A7903F00E4C9AB /* VVTLemonView.m in Sources */ = {isa = PBXBuildFile; fileRef = B9BAD53715A7903F00E4C9AB /* VVTLemonView.m */; };
+		B9BAD53915A7903F00E4C9AB /* VVTLemonView.m in Sources */ = {isa = PBXBuildFile; fileRef = B9BAD53715A7903F00E4C9AB /* VVTLemonView.m */; };
+		B9BAD53B15A7930600E4C9AB /* VVTLemonViewTest.m in Sources */ = {isa = PBXBuildFile; fileRef = B9BAD53A15A7930600E4C9AB /* VVTLemonViewTest.m */; };
 		E21F095D59AF4523B6990C37 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FCB3AB7C49BC4480BE689B6D /* libPods.a */; };
 /* End PBXBuildFile section */
 
@@ -44,10 +47,13 @@
 		B9BA1DF415A739CF007FE4F1 /* VerifyViewTipsTests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "VerifyViewTipsTests-Prefix.pch"; sourceTree = "<group>"; };
 		B9BAD52115A73FFE00E4C9AB /* VVTSampleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VVTSampleView.h; sourceTree = "<group>"; };
 		B9BAD52215A73FFE00E4C9AB /* VVTSampleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VVTSampleView.m; sourceTree = "<group>"; };
-		B9BAD52515A740A400E4C9AB /* VTTSampleViewTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VTTSampleViewTest.m; sourceTree = "<group>"; };
+		B9BAD52515A740A400E4C9AB /* VVTSampleViewTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VVTSampleViewTest.m; sourceTree = "<group>"; };
 		B9BAD53015A78AD300E4C9AB /* VVTOrangeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VVTOrangeView.h; sourceTree = "<group>"; };
 		B9BAD53115A78AD300E4C9AB /* VVTOrangeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VVTOrangeView.m; sourceTree = "<group>"; };
 		B9BAD53415A78CE100E4C9AB /* VVTOrangeViewTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VVTOrangeViewTest.m; sourceTree = "<group>"; };
+		B9BAD53615A7903F00E4C9AB /* VVTLemonView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VVTLemonView.h; sourceTree = "<group>"; };
+		B9BAD53715A7903F00E4C9AB /* VVTLemonView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VVTLemonView.m; sourceTree = "<group>"; };
+		B9BAD53A15A7930600E4C9AB /* VVTLemonViewTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VVTLemonViewTest.m; sourceTree = "<group>"; };
 		FCB3AB7C49BC4480BE689B6D /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -157,6 +163,8 @@
 				B9BAD52215A73FFE00E4C9AB /* VVTSampleView.m */,
 				B9BAD53015A78AD300E4C9AB /* VVTOrangeView.h */,
 				B9BAD53115A78AD300E4C9AB /* VVTOrangeView.m */,
+				B9BAD53615A7903F00E4C9AB /* VVTLemonView.h */,
+				B9BAD53715A7903F00E4C9AB /* VVTLemonView.m */,
 			);
 			name = CustomViews;
 			sourceTree = "<group>";
@@ -171,8 +179,9 @@
 		B9BAD51F15A73E8100E4C9AB /* CustomViews */ = {
 			isa = PBXGroup;
 			children = (
-				B9BAD52515A740A400E4C9AB /* VTTSampleViewTest.m */,
+				B9BAD52515A740A400E4C9AB /* VVTSampleViewTest.m */,
 				B9BAD53415A78CE100E4C9AB /* VVTOrangeViewTest.m */,
+				B9BAD53A15A7930600E4C9AB /* VVTLemonViewTest.m */,
 			);
 			name = CustomViews;
 			sourceTree = "<group>";
@@ -308,6 +317,7 @@
 				B9312E7E15A5D4EE00F538B9 /* main.m in Sources */,
 				B9BAD52315A73FFE00E4C9AB /* VVTSampleView.m in Sources */,
 				B9BAD53215A78AD300E4C9AB /* VVTOrangeView.m in Sources */,
+				B9BAD53815A7903F00E4C9AB /* VVTLemonView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -317,9 +327,11 @@
 			files = (
 				B9BA1DF315A739CF007FE4F1 /* main.m in Sources */,
 				B9BAD52415A73FFE00E4C9AB /* VVTSampleView.m in Sources */,
-				B9BAD52615A740A400E4C9AB /* VTTSampleViewTest.m in Sources */,
+				B9BAD52615A740A400E4C9AB /* VVTSampleViewTest.m in Sources */,
 				B9BAD53315A78AD300E4C9AB /* VVTOrangeView.m in Sources */,
 				B9BAD53515A78CE100E4C9AB /* VVTOrangeViewTest.m in Sources */,
+				B9BAD53915A7903F00E4C9AB /* VVTLemonView.m in Sources */,
+				B9BAD53B15A7930600E4C9AB /* VVTLemonViewTest.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -1,5 +1,5 @@
 //
-//  VerifyViewTips - VTTSampleViewTest.m
+//  VerifyViewTips - VVTSampleViewTest.m
 //  Copyright 2012年 __MyCompanyName__. All rights reserved.
 //
 //  Created by: KAZUMA Ukyo
@@ -8,13 +8,13 @@
 #import <GHUnitIOS/GHUnit.h>
 #import "VVTSampleView.h"
 
-@interface VTTSampleViewTest : GHViewTestCase
+@interface VVTSampleViewTest : GHViewTestCase
 {
     
 }
 @end
 
-@implementation VTTSampleViewTest
+@implementation VVTSampleViewTest
 
 - (BOOL)shouldRunOnMainThread {
     // By default NO, but if you have a UI test or test dependent on running on the main thread return YES
