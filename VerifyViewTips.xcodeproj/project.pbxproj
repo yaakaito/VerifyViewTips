@@ -25,6 +25,9 @@
 		B9BA1DF115A739CF007FE4F1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B9BA1DEF15A739CF007FE4F1 /* InfoPlist.strings */; };
 		B9BA1DF315A739CF007FE4F1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B9BA1DF215A739CF007FE4F1 /* main.m */; };
 		B9BAD51B15A73B1300E4C9AB /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FCB3AB7C49BC4480BE689B6D /* libPods.a */; };
+		B9BAD52315A73FFE00E4C9AB /* VVTSampleView.m in Sources */ = {isa = PBXBuildFile; fileRef = B9BAD52215A73FFE00E4C9AB /* VVTSampleView.m */; };
+		B9BAD52415A73FFE00E4C9AB /* VVTSampleView.m in Sources */ = {isa = PBXBuildFile; fileRef = B9BAD52215A73FFE00E4C9AB /* VVTSampleView.m */; };
+		B9BAD52615A740A400E4C9AB /* VTTSampleViewTest.m in Sources */ = {isa = PBXBuildFile; fileRef = B9BAD52515A740A400E4C9AB /* VTTSampleViewTest.m */; };
 		E21F095D59AF4523B6990C37 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FCB3AB7C49BC4480BE689B6D /* libPods.a */; };
 /* End PBXBuildFile section */
 
@@ -53,6 +56,9 @@
 		B9BA1DF015A739CF007FE4F1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		B9BA1DF215A739CF007FE4F1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		B9BA1DF415A739CF007FE4F1 /* VerifyViewTipsTests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "VerifyViewTipsTests-Prefix.pch"; sourceTree = "<group>"; };
+		B9BAD52115A73FFE00E4C9AB /* VVTSampleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VVTSampleView.h; sourceTree = "<group>"; };
+		B9BAD52215A73FFE00E4C9AB /* VVTSampleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VVTSampleView.m; sourceTree = "<group>"; };
+		B9BAD52515A740A400E4C9AB /* VTTSampleViewTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VTTSampleViewTest.m; sourceTree = "<group>"; };
 		FCB3AB7C49BC4480BE689B6D /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -116,6 +122,8 @@
 		B9312E7715A5D4EE00F538B9 /* VerifyViewTips */ = {
 			isa = PBXGroup;
 			children = (
+				B9BAD51D15A73C7400E4C9AB /* CustomViews */,
+				B9BAD51E15A73C8100E4C9AB /* CustomCells */,
 				B9312E8015A5D4EE00F538B9 /* VVTAppDelegate.h */,
 				B9312E8115A5D4EE00F538B9 /* VVTAppDelegate.m */,
 				B9312E8315A5D4EE00F538B9 /* VVTMasterViewController.h */,
@@ -145,6 +153,8 @@
 		B9BA1DEC15A739CF007FE4F1 /* VerifyViewTipsTests */ = {
 			isa = PBXGroup;
 			children = (
+				B9BAD51F15A73E8100E4C9AB /* CustomViews */,
+				B9BAD52015A73E8800E4C9AB /* CustomCells */,
 				B9BA1DED15A739CF007FE4F1 /* Supporting Files */,
 			);
 			path = VerifyViewTipsTests;
@@ -159,6 +169,37 @@
 				B9BA1DF415A739CF007FE4F1 /* VerifyViewTipsTests-Prefix.pch */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B9BAD51D15A73C7400E4C9AB /* CustomViews */ = {
+			isa = PBXGroup;
+			children = (
+				B9BAD52115A73FFE00E4C9AB /* VVTSampleView.h */,
+				B9BAD52215A73FFE00E4C9AB /* VVTSampleView.m */,
+			);
+			name = CustomViews;
+			sourceTree = "<group>";
+		};
+		B9BAD51E15A73C8100E4C9AB /* CustomCells */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = CustomCells;
+			sourceTree = "<group>";
+		};
+		B9BAD51F15A73E8100E4C9AB /* CustomViews */ = {
+			isa = PBXGroup;
+			children = (
+				B9BAD52515A740A400E4C9AB /* VTTSampleViewTest.m */,
+			);
+			name = CustomViews;
+			sourceTree = "<group>";
+		};
+		B9BAD52015A73E8800E4C9AB /* CustomCells */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = CustomCells;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -189,6 +230,7 @@
 				B9BA1DE315A739CE007FE4F1 /* Sources */,
 				B9BA1DE415A739CE007FE4F1 /* Frameworks */,
 				B9BA1DE515A739CE007FE4F1 /* Resources */,
+				B9BAD52715A7413B00E4C9AB /* UI Prepare */,
 			);
 			buildRules = (
 			);
@@ -264,6 +306,20 @@
 			shellPath = /bin/sh;
 			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
 		};
+		B9BAD52715A7413B00E4C9AB /* UI Prepare */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "UI Prepare";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/VerifyViewTipsTests/Scripts/PrepareUITests.sh\"";
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -275,6 +331,7 @@
 				B9312E8215A5D4EE00F538B9 /* VVTAppDelegate.m in Sources */,
 				B9312E8515A5D4EE00F538B9 /* VVTMasterViewController.m in Sources */,
 				B9312E8815A5D4EE00F538B9 /* VVTDetailViewController.m in Sources */,
+				B9BAD52315A73FFE00E4C9AB /* VVTSampleView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -283,6 +340,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				B9BA1DF315A739CF007FE4F1 /* main.m in Sources */,
+				B9BAD52415A73FFE00E4C9AB /* VVTSampleView.m in Sources */,
+				B9BAD52615A740A400E4C9AB /* VTTSampleViewTest.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

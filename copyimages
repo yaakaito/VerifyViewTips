@@ -1,0 +1,2 @@
+#!/bin/sh
+./VerifyViewTipsTests/Scripts/CopyTestImages.sh
