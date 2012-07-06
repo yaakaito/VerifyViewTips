@@ -9,5 +9,6 @@
 #import <UIKit/UIKit.h>
 
 @interface VVTOrangeView : UIView
-
+@property(nonatomic,strong) UILabel *value1;
+@property(nonatomic,strong) UILabel *value2;
 @end

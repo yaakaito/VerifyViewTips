@@ -6,10 +6,11 @@
 //
 
 #import <GHUnitIOS/GHUnit.h>
+#import "VVTOrangeView.h"
 
-@interface VVTOrangeViewTest : GHTestCase
+@interface VVTOrangeViewTest : GHViewTestCase
 {
-    
+    VVTOrangeView *view;
 }
 @end
 
@@ -30,15 +31,31 @@
 
 - (void)setUp {
     // Run before each test method
+    view = [[VVTOrangeView alloc] initWithFrame:[UIScreen mainScreen].bounds];
 }
 
 - (void)tearDown {
     // Run after each test method
 }
 
-- (void)testExample
-{
-    GHFail(@"Unit tests are not implemented yet in VVTOrangeViewTest");
+- (void)testAfterInitialized {
+    GHVerifyView(view);
+}
+
+- (void)testSetValue1 {
+    view.value1.text = @"HOGE";
+    GHVerifyView(view);
+}
+
+- (void)testSetValue2 {
+    view.value2.text = @"FUGA";
+    GHVerifyView(view);
+}
+
+- (void)testSetValue1AndValue2 {
+    view.value1.text = @"HOGEHOGE";
+    view.value2.text = @"FUGAFUGA";
+    GHVerifyView(view);
 }
 
 @end
