@@ -19,27 +19,41 @@
 		B9312E8E15A5D4EE00F538B9 /* VVTMasterViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = B9312E8C15A5D4EE00F538B9 /* VVTMasterViewController_iPad.xib */; };
 		B9312E9115A5D4EE00F538B9 /* VVTDetailViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = B9312E8F15A5D4EE00F538B9 /* VVTDetailViewController_iPhone.xib */; };
 		B9312E9415A5D4EE00F538B9 /* VVTDetailViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = B9312E9215A5D4EE00F538B9 /* VVTDetailViewController_iPad.xib */; };
+		B9BA1DE915A739CE007FE4F1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B9312E7115A5D4EE00F538B9 /* UIKit.framework */; };
+		B9BA1DEA15A739CE007FE4F1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B9312E7315A5D4EE00F538B9 /* Foundation.framework */; };
+		B9BA1DEB15A739CE007FE4F1 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B9312E7515A5D4EE00F538B9 /* CoreGraphics.framework */; };
+		B9BA1DF115A739CF007FE4F1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B9BA1DEF15A739CF007FE4F1 /* InfoPlist.strings */; };
+		B9BA1DF315A739CF007FE4F1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B9BA1DF215A739CF007FE4F1 /* main.m */; };
+		B9BAD51B15A73B1300E4C9AB /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FCB3AB7C49BC4480BE689B6D /* libPods.a */; };
+		E21F095D59AF4523B6990C37 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FCB3AB7C49BC4480BE689B6D /* libPods.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4BD3BD3017ED4194913BF1AB /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = SOURCE_ROOT; };
 		B9312E6D15A5D4EE00F538B9 /* VerifyViewTips.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VerifyViewTips.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		B9312E7115A5D4EE00F538B9 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
-		B9312E7315A5D4EE00F538B9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		B9312E7515A5D4EE00F538B9 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		B9312E7915A5D4EE00F538B9 /* VerifyViewTips-Info.plist */ = {isa = PBXFileReference; path = "VerifyViewTips-Info.plist"; sourceTree = "<group>"; };
+		B9312E7115A5D4EE00F538B9 /* UIKit.framework */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		B9312E7315A5D4EE00F538B9 /* Foundation.framework */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		B9312E7515A5D4EE00F538B9 /* CoreGraphics.framework */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		B9312E7915A5D4EE00F538B9 /* VerifyViewTips-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "VerifyViewTips-Info.plist"; sourceTree = "<group>"; };
 		B9312E7B15A5D4EE00F538B9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		B9312E7D15A5D4EE00F538B9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		B9312E7F15A5D4EE00F538B9 /* VerifyViewTips-Prefix.pch */ = {isa = PBXFileReference; path = "VerifyViewTips-Prefix.pch"; sourceTree = "<group>"; };
-		B9312E8015A5D4EE00F538B9 /* VVTAppDelegate.h */ = {isa = PBXFileReference; path = VVTAppDelegate.h; sourceTree = "<group>"; };
+		B9312E7F15A5D4EE00F538B9 /* VerifyViewTips-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "VerifyViewTips-Prefix.pch"; sourceTree = "<group>"; };
+		B9312E8015A5D4EE00F538B9 /* VVTAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VVTAppDelegate.h; sourceTree = "<group>"; };
 		B9312E8115A5D4EE00F538B9 /* VVTAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VVTAppDelegate.m; sourceTree = "<group>"; };
-		B9312E8315A5D4EE00F538B9 /* VVTMasterViewController.h */ = {isa = PBXFileReference; path = VVTMasterViewController.h; sourceTree = "<group>"; };
+		B9312E8315A5D4EE00F538B9 /* VVTMasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VVTMasterViewController.h; sourceTree = "<group>"; };
 		B9312E8415A5D4EE00F538B9 /* VVTMasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VVTMasterViewController.m; sourceTree = "<group>"; };
-		B9312E8615A5D4EE00F538B9 /* VVTDetailViewController.h */ = {isa = PBXFileReference; path = VVTDetailViewController.h; sourceTree = "<group>"; };
+		B9312E8615A5D4EE00F538B9 /* VVTDetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VVTDetailViewController.h; sourceTree = "<group>"; };
 		B9312E8715A5D4EE00F538B9 /* VVTDetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VVTDetailViewController.m; sourceTree = "<group>"; };
 		B9312E8A15A5D4EE00F538B9 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/VVTMasterViewController_iPhone.xib; sourceTree = "<group>"; };
 		B9312E8D15A5D4EE00F538B9 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/VVTMasterViewController_iPad.xib; sourceTree = "<group>"; };
 		B9312E9015A5D4EE00F538B9 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/VVTDetailViewController_iPhone.xib; sourceTree = "<group>"; };
 		B9312E9315A5D4EE00F538B9 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/VVTDetailViewController_iPad.xib; sourceTree = "<group>"; };
+		B9BA1DE715A739CE007FE4F1 /* VerifyViewTipsTests.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VerifyViewTipsTests.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B9BA1DEE15A739CF007FE4F1 /* VerifyViewTipsTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "VerifyViewTipsTests-Info.plist"; sourceTree = "<group>"; };
+		B9BA1DF015A739CF007FE4F1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B9BA1DF215A739CF007FE4F1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B9BA1DF415A739CF007FE4F1 /* VerifyViewTipsTests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "VerifyViewTipsTests-Prefix.pch"; sourceTree = "<group>"; };
+		FCB3AB7C49BC4480BE689B6D /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -50,6 +64,18 @@
 				B9312E7215A5D4EE00F538B9 /* UIKit.framework in Frameworks */,
 				B9312E7415A5D4EE00F538B9 /* Foundation.framework in Frameworks */,
 				B9312E7615A5D4EE00F538B9 /* CoreGraphics.framework in Frameworks */,
+				E21F095D59AF4523B6990C37 /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B9BA1DE415A739CE007FE4F1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B9BA1DE915A739CE007FE4F1 /* UIKit.framework in Frameworks */,
+				B9BAD51B15A73B1300E4C9AB /* libPods.a in Frameworks */,
+				B9BA1DEA15A739CE007FE4F1 /* Foundation.framework in Frameworks */,
+				B9BA1DEB15A739CE007FE4F1 /* CoreGraphics.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -60,8 +86,10 @@
 			isa = PBXGroup;
 			children = (
 				B9312E7715A5D4EE00F538B9 /* VerifyViewTips */,
+				B9BA1DEC15A739CF007FE4F1 /* VerifyViewTipsTests */,
 				B9312E7015A5D4EE00F538B9 /* Frameworks */,
 				B9312E6E15A5D4EE00F538B9 /* Products */,
+				4BD3BD3017ED4194913BF1AB /* Pods.xcconfig */,
 			);
 			sourceTree = "<group>";
 		};
@@ -69,6 +97,7 @@
 			isa = PBXGroup;
 			children = (
 				B9312E6D15A5D4EE00F538B9 /* VerifyViewTips.app */,
+				B9BA1DE715A739CE007FE4F1 /* VerifyViewTipsTests.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -79,6 +108,7 @@
 				B9312E7115A5D4EE00F538B9 /* UIKit.framework */,
 				B9312E7315A5D4EE00F538B9 /* Foundation.framework */,
 				B9312E7515A5D4EE00F538B9 /* CoreGraphics.framework */,
+				FCB3AB7C49BC4480BE689B6D /* libPods.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -112,6 +142,25 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		B9BA1DEC15A739CF007FE4F1 /* VerifyViewTipsTests */ = {
+			isa = PBXGroup;
+			children = (
+				B9BA1DED15A739CF007FE4F1 /* Supporting Files */,
+			);
+			path = VerifyViewTipsTests;
+			sourceTree = "<group>";
+		};
+		B9BA1DED15A739CF007FE4F1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B9BA1DEE15A739CF007FE4F1 /* VerifyViewTipsTests-Info.plist */,
+				B9BA1DEF15A739CF007FE4F1 /* InfoPlist.strings */,
+				B9BA1DF215A739CF007FE4F1 /* main.m */,
+				B9BA1DF415A739CF007FE4F1 /* VerifyViewTipsTests-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -122,6 +171,7 @@
 				B9312E6915A5D4EE00F538B9 /* Sources */,
 				B9312E6A15A5D4EE00F538B9 /* Frameworks */,
 				B9312E6B15A5D4EE00F538B9 /* Resources */,
+				350D03E6DB0949AB99F4F0C6 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -130,6 +180,23 @@
 			name = VerifyViewTips;
 			productName = VerifyViewTips;
 			productReference = B9312E6D15A5D4EE00F538B9 /* VerifyViewTips.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B9BA1DE615A739CE007FE4F1 /* VerifyViewTipsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B9BA1DFA15A739CF007FE4F1 /* Build configuration list for PBXNativeTarget "VerifyViewTipsTests" */;
+			buildPhases = (
+				B9BA1DE315A739CE007FE4F1 /* Sources */,
+				B9BA1DE415A739CE007FE4F1 /* Frameworks */,
+				B9BA1DE515A739CE007FE4F1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VerifyViewTipsTests;
+			productName = VerifyViewTipsTests;
+			productReference = B9BA1DE715A739CE007FE4F1 /* VerifyViewTipsTests.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -154,6 +221,7 @@
 			projectRoot = "";
 			targets = (
 				B9312E6C15A5D4EE00F538B9 /* VerifyViewTips */,
+				B9BA1DE615A739CE007FE4F1 /* VerifyViewTipsTests */,
 			);
 		};
 /* End PBXProject section */
@@ -171,7 +239,32 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		B9BA1DE515A739CE007FE4F1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B9BA1DF115A739CF007FE4F1 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		350D03E6DB0949AB99F4F0C6 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		B9312E6915A5D4EE00F538B9 /* Sources */ = {
@@ -182,6 +275,14 @@
 				B9312E8215A5D4EE00F538B9 /* VVTAppDelegate.m in Sources */,
 				B9312E8515A5D4EE00F538B9 /* VVTMasterViewController.m in Sources */,
 				B9312E8815A5D4EE00F538B9 /* VVTDetailViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B9BA1DE315A739CE007FE4F1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B9BA1DF315A739CF007FE4F1 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -226,6 +327,14 @@
 				B9312E9315A5D4EE00F538B9 /* en */,
 			);
 			name = VVTDetailViewController_iPad.xib;
+			sourceTree = "<group>";
+		};
+		B9BA1DEF15A739CF007FE4F1 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B9BA1DF015A739CF007FE4F1 /* en */,
+			);
+			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -280,6 +389,7 @@
 		};
 		B9312E9815A5D4EE00F538B9 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4BD3BD3017ED4194913BF1AB /* Pods.xcconfig */;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "VerifyViewTips/VerifyViewTips-Prefix.pch";
@@ -291,10 +401,55 @@
 		};
 		B9312E9915A5D4EE00F538B9 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4BD3BD3017ED4194913BF1AB /* Pods.xcconfig */;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "VerifyViewTips/VerifyViewTips-Prefix.pch";
 				INFOPLIST_FILE = "VerifyViewTips/VerifyViewTips-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		B9BA1DF815A739CF007FE4F1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "VerifyViewTipsTests/VerifyViewTipsTests-Prefix.pch";
+				HEADER_SEARCH_PATHS = (
+					"\"${PODS_ROOT}/Headers\"",
+					"\"${PODS_ROOT}/Headers/GHUnitIOS\"",
+				);
+				INFOPLIST_FILE = "VerifyViewTipsTests/VerifyViewTipsTests-Info.plist";
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-framework",
+					CoreLocation,
+				);
+				PODS_ROOT = "${SRCROOT}/Pods";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		B9BA1DF915A739CF007FE4F1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "VerifyViewTipsTests/VerifyViewTipsTests-Prefix.pch";
+				HEADER_SEARCH_PATHS = (
+					"\"${PODS_ROOT}/Headers\"",
+					"\"${PODS_ROOT}/Headers/GHUnitIOS\"",
+				);
+				INFOPLIST_FILE = "VerifyViewTipsTests/VerifyViewTipsTests-Info.plist";
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-framework",
+					CoreLocation,
+				);
+				PODS_ROOT = "${SRCROOT}/Pods";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -319,6 +474,16 @@
 				B9312E9915A5D4EE00F538B9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B9BA1DFA15A739CF007FE4F1 /* Build configuration list for PBXNativeTarget "VerifyViewTipsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B9BA1DF815A739CF007FE4F1 /* Debug */,
+				B9BA1DF915A739CF007FE4F1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
