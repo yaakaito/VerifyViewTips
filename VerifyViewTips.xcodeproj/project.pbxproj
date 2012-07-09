@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B9212C5515AA9172000E70C1 /* VVTGrapeViewTest.m in Sources */ = {isa = PBXBuildFile; fileRef = B9212C5415AA9172000E70C1 /* VVTGrapeViewTest.m */; };
 		B9312E7215A5D4EE00F538B9 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B9312E7115A5D4EE00F538B9 /* UIKit.framework */; };
 		B9312E7415A5D4EE00F538B9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B9312E7315A5D4EE00F538B9 /* Foundation.framework */; };
 		B9312E7615A5D4EE00F538B9 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B9312E7515A5D4EE00F538B9 /* CoreGraphics.framework */; };
@@ -27,11 +28,17 @@
 		B9BAD53815A7903F00E4C9AB /* VVTLemonView.m in Sources */ = {isa = PBXBuildFile; fileRef = B9BAD53715A7903F00E4C9AB /* VVTLemonView.m */; };
 		B9BAD53915A7903F00E4C9AB /* VVTLemonView.m in Sources */ = {isa = PBXBuildFile; fileRef = B9BAD53715A7903F00E4C9AB /* VVTLemonView.m */; };
 		B9BAD53B15A7930600E4C9AB /* VVTLemonViewTest.m in Sources */ = {isa = PBXBuildFile; fileRef = B9BAD53A15A7930600E4C9AB /* VVTLemonViewTest.m */; };
+		B9BAD53E15A92E5900E4C9AB /* VVTGrapeView.m in Sources */ = {isa = PBXBuildFile; fileRef = B9BAD53D15A92E5900E4C9AB /* VVTGrapeView.m */; };
+		B9BAD53F15A92E5900E4C9AB /* VVTGrapeView.m in Sources */ = {isa = PBXBuildFile; fileRef = B9BAD53D15A92E5900E4C9AB /* VVTGrapeView.m */; };
+		B9BAD54215AA8B2C00E4C9AB /* VVTGrapeCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B9BAD54115AA8B2C00E4C9AB /* VVTGrapeCell.m */; };
+		B9BAD54315AA8B2C00E4C9AB /* VVTGrapeCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B9BAD54115AA8B2C00E4C9AB /* VVTGrapeCell.m */; };
+		B9BAD54515AA8CA900E4C9AB /* VVTGrapeCellTest.m in Sources */ = {isa = PBXBuildFile; fileRef = B9BAD54415AA8CA900E4C9AB /* VVTGrapeCellTest.m */; };
 		E21F095D59AF4523B6990C37 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FCB3AB7C49BC4480BE689B6D /* libPods.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		4BD3BD3017ED4194913BF1AB /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = SOURCE_ROOT; };
+		B9212C5415AA9172000E70C1 /* VVTGrapeViewTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VVTGrapeViewTest.m; sourceTree = "<group>"; };
 		B9312E6D15A5D4EE00F538B9 /* VerifyViewTips.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VerifyViewTips.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B9312E7115A5D4EE00F538B9 /* UIKit.framework */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		B9312E7315A5D4EE00F538B9 /* Foundation.framework */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -54,6 +61,11 @@
 		B9BAD53615A7903F00E4C9AB /* VVTLemonView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VVTLemonView.h; sourceTree = "<group>"; };
 		B9BAD53715A7903F00E4C9AB /* VVTLemonView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VVTLemonView.m; sourceTree = "<group>"; };
 		B9BAD53A15A7930600E4C9AB /* VVTLemonViewTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VVTLemonViewTest.m; sourceTree = "<group>"; };
+		B9BAD53C15A92E5900E4C9AB /* VVTGrapeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VVTGrapeView.h; sourceTree = "<group>"; };
+		B9BAD53D15A92E5900E4C9AB /* VVTGrapeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VVTGrapeView.m; sourceTree = "<group>"; };
+		B9BAD54015AA8B2C00E4C9AB /* VVTGrapeCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VVTGrapeCell.h; sourceTree = "<group>"; };
+		B9BAD54115AA8B2C00E4C9AB /* VVTGrapeCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VVTGrapeCell.m; sourceTree = "<group>"; };
+		B9BAD54415AA8CA900E4C9AB /* VVTGrapeCellTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VVTGrapeCellTest.m; sourceTree = "<group>"; };
 		FCB3AB7C49BC4480BE689B6D /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -165,6 +177,8 @@
 				B9BAD53115A78AD300E4C9AB /* VVTOrangeView.m */,
 				B9BAD53615A7903F00E4C9AB /* VVTLemonView.h */,
 				B9BAD53715A7903F00E4C9AB /* VVTLemonView.m */,
+				B9BAD53C15A92E5900E4C9AB /* VVTGrapeView.h */,
+				B9BAD53D15A92E5900E4C9AB /* VVTGrapeView.m */,
 			);
 			name = CustomViews;
 			sourceTree = "<group>";
@@ -172,6 +186,8 @@
 		B9BAD51E15A73C8100E4C9AB /* CustomCells */ = {
 			isa = PBXGroup;
 			children = (
+				B9BAD54015AA8B2C00E4C9AB /* VVTGrapeCell.h */,
+				B9BAD54115AA8B2C00E4C9AB /* VVTGrapeCell.m */,
 			);
 			name = CustomCells;
 			sourceTree = "<group>";
@@ -182,6 +198,7 @@
 				B9BAD52515A740A400E4C9AB /* VVTSampleViewTest.m */,
 				B9BAD53415A78CE100E4C9AB /* VVTOrangeViewTest.m */,
 				B9BAD53A15A7930600E4C9AB /* VVTLemonViewTest.m */,
+				B9212C5415AA9172000E70C1 /* VVTGrapeViewTest.m */,
 			);
 			name = CustomViews;
 			sourceTree = "<group>";
@@ -189,6 +206,7 @@
 		B9BAD52015A73E8800E4C9AB /* CustomCells */ = {
 			isa = PBXGroup;
 			children = (
+				B9BAD54415AA8CA900E4C9AB /* VVTGrapeCellTest.m */,
 			);
 			name = CustomCells;
 			sourceTree = "<group>";
@@ -318,6 +336,8 @@
 				B9BAD52315A73FFE00E4C9AB /* VVTSampleView.m in Sources */,
 				B9BAD53215A78AD300E4C9AB /* VVTOrangeView.m in Sources */,
 				B9BAD53815A7903F00E4C9AB /* VVTLemonView.m in Sources */,
+				B9BAD53E15A92E5900E4C9AB /* VVTGrapeView.m in Sources */,
+				B9BAD54215AA8B2C00E4C9AB /* VVTGrapeCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -332,6 +352,10 @@
 				B9BAD53515A78CE100E4C9AB /* VVTOrangeViewTest.m in Sources */,
 				B9BAD53915A7903F00E4C9AB /* VVTLemonView.m in Sources */,
 				B9BAD53B15A7930600E4C9AB /* VVTLemonViewTest.m in Sources */,
+				B9BAD53F15A92E5900E4C9AB /* VVTGrapeView.m in Sources */,
+				B9BAD54315AA8B2C00E4C9AB /* VVTGrapeCell.m in Sources */,
+				B9BAD54515AA8CA900E4C9AB /* VVTGrapeCellTest.m in Sources */,
+				B9212C5515AA9172000E70C1 /* VVTGrapeViewTest.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
