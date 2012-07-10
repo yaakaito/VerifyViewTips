@@ -13,6 +13,9 @@
 		B9312E7615A5D4EE00F538B9 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B9312E7515A5D4EE00F538B9 /* CoreGraphics.framework */; };
 		B9312E7C15A5D4EE00F538B9 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B9312E7A15A5D4EE00F538B9 /* InfoPlist.strings */; };
 		B9312E7E15A5D4EE00F538B9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B9312E7D15A5D4EE00F538B9 /* main.m */; };
+		B93676DD15AB29CF00DCAB1F /* VVTPineAppleView.m in Sources */ = {isa = PBXBuildFile; fileRef = B93676DC15AB29CF00DCAB1F /* VVTPineAppleView.m */; };
+		B93676DE15AB29CF00DCAB1F /* VVTPineAppleView.m in Sources */ = {isa = PBXBuildFile; fileRef = B93676DC15AB29CF00DCAB1F /* VVTPineAppleView.m */; };
+		B93676E115AB2B0F00DCAB1F /* VVTPineAppleViewTest.m in Sources */ = {isa = PBXBuildFile; fileRef = B93676DF15AB2B0F00DCAB1F /* VVTPineAppleViewTest.m */; };
 		B9BA1DE915A739CE007FE4F1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B9312E7115A5D4EE00F538B9 /* UIKit.framework */; };
 		B9BA1DEA15A739CE007FE4F1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B9312E7315A5D4EE00F538B9 /* Foundation.framework */; };
 		B9BA1DEB15A739CE007FE4F1 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B9312E7515A5D4EE00F538B9 /* CoreGraphics.framework */; };
@@ -47,6 +50,9 @@
 		B9312E7B15A5D4EE00F538B9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		B9312E7D15A5D4EE00F538B9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		B9312E7F15A5D4EE00F538B9 /* VerifyViewTips-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "VerifyViewTips-Prefix.pch"; sourceTree = "<group>"; };
+		B93676DB15AB29CF00DCAB1F /* VVTPineAppleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VVTPineAppleView.h; sourceTree = "<group>"; };
+		B93676DC15AB29CF00DCAB1F /* VVTPineAppleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VVTPineAppleView.m; sourceTree = "<group>"; };
+		B93676DF15AB2B0F00DCAB1F /* VVTPineAppleViewTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VVTPineAppleViewTest.m; sourceTree = "<group>"; };
 		B9BA1DE715A739CE007FE4F1 /* VerifyViewTipsTests.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VerifyViewTipsTests.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B9BA1DEE15A739CF007FE4F1 /* VerifyViewTipsTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "VerifyViewTipsTests-Info.plist"; sourceTree = "<group>"; };
 		B9BA1DF015A739CF007FE4F1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
@@ -179,6 +185,8 @@
 				B9BAD53715A7903F00E4C9AB /* VVTLemonView.m */,
 				B9BAD53C15A92E5900E4C9AB /* VVTGrapeView.h */,
 				B9BAD53D15A92E5900E4C9AB /* VVTGrapeView.m */,
+				B93676DB15AB29CF00DCAB1F /* VVTPineAppleView.h */,
+				B93676DC15AB29CF00DCAB1F /* VVTPineAppleView.m */,
 			);
 			name = CustomViews;
 			sourceTree = "<group>";
@@ -199,6 +207,7 @@
 				B9BAD53415A78CE100E4C9AB /* VVTOrangeViewTest.m */,
 				B9BAD53A15A7930600E4C9AB /* VVTLemonViewTest.m */,
 				B9212C5415AA9172000E70C1 /* VVTGrapeViewTest.m */,
+				B93676DF15AB2B0F00DCAB1F /* VVTPineAppleViewTest.m */,
 			);
 			name = CustomViews;
 			sourceTree = "<group>";
@@ -338,6 +347,7 @@
 				B9BAD53815A7903F00E4C9AB /* VVTLemonView.m in Sources */,
 				B9BAD53E15A92E5900E4C9AB /* VVTGrapeView.m in Sources */,
 				B9BAD54215AA8B2C00E4C9AB /* VVTGrapeCell.m in Sources */,
+				B93676DD15AB29CF00DCAB1F /* VVTPineAppleView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -356,6 +366,8 @@
 				B9BAD54315AA8B2C00E4C9AB /* VVTGrapeCell.m in Sources */,
 				B9BAD54515AA8CA900E4C9AB /* VVTGrapeCellTest.m in Sources */,
 				B9212C5515AA9172000E70C1 /* VVTGrapeViewTest.m in Sources */,
+				B93676DE15AB29CF00DCAB1F /* VVTPineAppleView.m in Sources */,
+				B93676E115AB2B0F00DCAB1F /* VVTPineAppleViewTest.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
